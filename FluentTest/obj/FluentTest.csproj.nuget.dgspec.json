@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\FluentTest\\FluentTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\ClienteConsole\\ClienteConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\ClienteConsole\\ClienteConsole.csproj",
+        "projectName": "ClienteConsole",
+        "projectPath": "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\ClienteConsole\\ClienteConsole.csproj",
+        "packagesPath": "C:\\Users\\reginaldo.marinho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\ClienteConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\reginaldo.marinho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\FluentTest\\FluentTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\FluentTest\\FluentTest.csproj",
+        "projectName": "FluentTest",
+        "projectPath": "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\FluentTest\\FluentTest.csproj",
+        "packagesPath": "C:\\Users\\reginaldo.marinho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\FluentTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\reginaldo.marinho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\ClienteConsole\\ClienteConsole.csproj": {
+                "projectPath": "C:\\Users\\reginaldo.marinho\\source\\repos\\teste-unitarios-fluent-assertions\\ClienteConsole\\ClienteConsole.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
